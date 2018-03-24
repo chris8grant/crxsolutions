@@ -20,7 +20,7 @@ export default {
   align-content: center;
   height: 80vh;
   background-image:
-    linear-gradient(rgba(0, 0, 0,.55)),
+    linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0,.55)),
     url(../assets/adventure.jpg);
   background-position: center;
   background-repeat: no-repeat;
