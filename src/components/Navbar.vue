@@ -17,7 +17,7 @@
         <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Non-Profits</a>
+        <a class="nav-link" href="#">Borrowers</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Lenders</a>
