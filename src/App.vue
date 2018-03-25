@@ -3,6 +3,7 @@
     <Navbar/>
     <Jumbotron/>
     <HelloWorld/>
+    <Footer/>
   </div>
 </template>
 
@@ -11,6 +12,7 @@
 import HelloWorld from './components/HelloWorld';
 import Navbar from './components/Navbar';
 import Jumbotron from './components/Jumbotron';
+import Footer from './components/Footer';
 
 export default {
   name: 'App',
@@ -18,6 +20,7 @@ export default {
     Navbar,
     Jumbotron,
     HelloWorld,
+    Footer,
   },
 };
 </script>

@@ -15,6 +15,7 @@ export default {
 };
 </script>
 <style scoped>
+
 .jumbotron {
   display: flex;
   align-content: center;
