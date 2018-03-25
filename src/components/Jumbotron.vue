@@ -27,6 +27,7 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 0px;
+  background-attachment: fixed;
 }
 
 .container {
