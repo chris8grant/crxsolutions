@@ -15,6 +15,10 @@ export default {
 };
 </script>
 <style scoped>
+.row {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
 
 .jumbotron {
   display: flex;

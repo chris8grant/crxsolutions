@@ -20,6 +20,10 @@ export default {
 };
 </script>
 <style scoped>
+.row {
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
 footer {
   background: #3D68A3;
 }

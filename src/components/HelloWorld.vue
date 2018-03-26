@@ -19,6 +19,30 @@
       </div>
     </div>
     <div class="jumbotron jumbotron-fluid">
+      <div class="container"> 
+        <h2 class="text-white">Make Data Driven Decisions</h2>
+        <p class="text-white mb-5">Be confident in your investments.</p>
+        <div class="row">
+          <div class="col mb-3">
+            <div class="tint p-3">
+              <h5 class="text-uppercase text-white pt-3">Test</h5>
+              <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            </div>
+          </div>
+          <div class="col mb-3">
+            <div class="tint p-3">
+              <h5 class="text-uppercase text-white pt-3">Test</h5>
+              <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            </div>
+          </div>
+          <div class="col mb-3">
+            <div class="tint p-3">
+              <h5 class="text-uppercase text-white pt-3">Test</h5>
+              <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 </template>
@@ -33,12 +57,26 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+.col-sm-4 {
+  max-width: 24%;
+}
+.tint {
+  background: rgba(34, 34, 34, 0.4);
+}
+.row {
+  justify-content: center;
+  padding: 15px;
+  margin-left: 0px!important;
+  margin-right: 0px!important;
+}
 .jumbotron {
   display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
   /* align-content: center; */
-  height: 100vh;
+  height: 86vh;
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0,.55)),
+    linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0,.75)),
     url(../assets/summer.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -46,8 +84,13 @@ export default {
   margin-bottom: 0px;
   background-attachment: fixed;
 }
-/* #about {
-  background: #3D68A3;
-} */
+@media (max-width: 575.98px) {
+  .jumbotron {
+    height: 170vh;
+  }
+  .col {
+    min-width: 51%;
+  }
+}
 
 </style>
