@@ -1,9 +1,7 @@
 <template>
   <footer class="pt-5 pb-5">
     <h3 class="text-white">CRX</h3>
-    <div class="row">
-      <div class="col text-white"> &copy; Copywrite {{ year }} </div>
-    </div>
+    <div class="row text-white text-center"> <p>&copy; Copywrite {{ year }}</p> <a class="text-white ml-3" href="mailto:youraddr@domain.tld">cgranted@stanford.edu</a> </div>
   </footer>
 </template>
 <script>
@@ -21,6 +19,7 @@ export default {
 </script>
 <style scoped>
 .row {
+  justify-content: center;
   margin-left: 0px!important;
   margin-right: 0px!important;
 }

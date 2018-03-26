@@ -5,7 +5,9 @@
       <p class="lead text-white">
         This is a modified jumbotron that occupies the entire horizontal space of its parent.
       </p>
-      <button class="btn contact-btn btn-outline-light text-uppercase btn-lg">Contact Us</button>
+      <form action="mailto:cgranted@stanford.edu" method="GET">
+        <input type="submit" class="btn contact-btn btn-outline-light text-uppercase btn-lg" value="Contact" />
+      </form>
     </div>
   </div>
 </template>

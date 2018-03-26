@@ -1,22 +1,12 @@
 <template>
   <main data-spy="scroll" data-target="#navbar" data-offset="0">
-    <div class="container" id="borrowers">
-      <h2 class="pt-5">Opportunity</h2>
-    </div>
-    <div class="container-fluid" id="about">
-      <div class="container pb-5 pt-5">
-        <h2 class="t">Our Story</h2>
-        <p class="pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting,
-        </p>
-        <p class=" pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting,
-        </p>
-      </div>
+    <div class="container p-5">
+      <h2>Test</h2>
+      <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+      </p>
     </div>
     <div class="jumbotron jumbotron-fluid">
       <div class="container"> 
@@ -43,6 +33,25 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="container-fluid" id="about">
+      <div class="container p-5">
+        <h2 class="t">Our Story</h2>
+        <p class="pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting,
+        </p>
+        <p class=" pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting,
+        </p>
+      </div>
+    </div>
+    <div class="p-5">
+      
+
     </div>
   </main>
 </template>
