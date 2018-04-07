@@ -1,6 +1,6 @@
 <template>
   <main data-spy="scroll" data-target="#navbar" data-offset="0">
-    <div class="container p-5">
+    <div class="container p-5" id="about">
       <h2>About</h2>
       <div class="container">
         <p class="lead">
@@ -8,8 +8,8 @@
         </p>
       </div>
     </div>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container"> 
+    <div class="jumbotron jumbotron-fluid" id="solution">
+      <div class="container-fluid"> 
         <h2 class="text-white">How it Works</h2>
         <p class="text-white mb-5 lead">Our product is designed to connect your funding needs with banks that are genuinely interested in supporting you. </p>
         <div class="row">
@@ -19,7 +19,7 @@
               <p class="text-white pt-3">Create a profile for your business or non-profit. </p>
             </div>
           </div>
-          <div class="col mb-3">
+          <div class="col mb-3 hide-overflow">
             <div class="tint p-3">
               <img src="../assets/analyze.svg" height="125" width="75" class="pt-3"/>
               <p class="text-white pt-3">We analyze and share your profile with banks seeking quality investment opportunities. </p>
@@ -34,7 +34,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid" id="about">
+    <div class="container-fluid" id="story">
       <div class="container p-5">
         <h2 class="t">Our Story</h2>
         <p class="pt-4 lead">CRX launched in 2018 to increase access to capital and credit in low and moderate-income communities. Today, we've built world-class technology that connects banks with impactful community development projects that meet their Community Reinvestment Act compliance obligations. CRX is fundamentally transforming the way community development projects are financed and building the financial marketplace of the future. 
@@ -54,7 +54,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
+.hide-overflow {
+  overflow: hidden;
+}
 .col-sm-4 {
   max-width: 24%;
 }
