@@ -1,9 +1,9 @@
 <template>
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4 text-white">CRX Solutions</h1>
+      <h1 class="display-4 text-white">CRX. Accelerating your impact. </h1>
       <p class="lead text-white">
-        This is a modified jumbotron that occupies the entire horizontal space of its parent.
+        Apply for community development funding today
       </p>
       <form action="mailto:cgranted@stanford.edu" method="GET">
         <input type="submit" class="btn contact-btn btn-outline-light text-uppercase btn-lg" value="Contact" />

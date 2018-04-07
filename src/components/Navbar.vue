@@ -17,16 +17,16 @@
         <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#borrowers">Borrowers</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Lenders</a>
-      </li>
-      <li class="nav-item">
         <a class="nav-link" href="#about">About</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#solution">Solutions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#story">Our Story</a>
+      </li>
       <li class="nav-item dropdown">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="#team">
           Team
         </a>
       </li>

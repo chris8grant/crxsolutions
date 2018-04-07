@@ -1,34 +1,34 @@
 <template>
   <main data-spy="scroll" data-target="#navbar" data-offset="0">
     <div class="container p-5">
-      <h2>Test</h2>
-      <p>
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-        It has survived not only five centuries, but also the leap into electronic typesetting,
-      </p>
+      <h2>About</h2>
+      <div class="container">
+        <p class="lead">
+          CRX is the leading community development marketplace dedicated to empowering businesses, non-profits, governments, and banks with data to better finance new projects.
+        </p>
+      </div>
     </div>
     <div class="jumbotron jumbotron-fluid">
       <div class="container"> 
-        <h2 class="text-white">Make Data Driven Decisions</h2>
-        <p class="text-white mb-5">Be confident in your investments.</p>
+        <h2 class="text-white">How it Works</h2>
+        <p class="text-white mb-5 lead">Our product is designed to connect your funding needs with banks that are genuinely interested in supporting you. </p>
         <div class="row">
           <div class="col mb-3">
             <div class="tint p-3">
-              <h5 class="text-uppercase text-white pt-3">Test</h5>
-              <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+              <img src="../assets/create-profile.svg" height="125" width="75" class="pt-3"/>
+              <p class="text-white pt-3">Create a profile for your business or non-profit. </p>
             </div>
           </div>
           <div class="col mb-3">
             <div class="tint p-3">
-              <h5 class="text-uppercase text-white pt-3">Test</h5>
-              <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+              <img src="../assets/analyze.svg" height="125" width="75" class="pt-3"/>
+              <p class="text-white pt-3">We analyze and share your profile with banks seeking quality investment opportunities. </p>
             </div>
           </div>
           <div class="col mb-3">
             <div class="tint p-3">
-              <h5 class="text-uppercase text-white pt-3">Test</h5>
-              <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+              <img src="../assets/verified.svg" height="125" width="75" class="pt-3"/>
+              <p class="text-white pt-3">We notify you when CRX finds a funding match.</p>
             </div>
           </div>
         </div>
@@ -37,21 +37,10 @@
     <div class="container-fluid" id="about">
       <div class="container p-5">
         <h2 class="t">Our Story</h2>
-        <p class="pt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting,
+        <p class="pt-4 lead">CRX launched in 2018 to increase access to capital and credit in low and moderate-income communities. Today, we've built world-class technology that connects banks with impactful community development projects that meet their Community Reinvestment Act compliance obligations. CRX is fundamentally transforming the way community development projects are financed and building the financial marketplace of the future. 
         </p>
-        <p class=" pt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          It has survived not only five centuries, but also the leap into electronic typesetting,
-        </p>
-      </div>
-    </div>
-    <div class="p-5">
-      
 
+      </div>
     </div>
   </main>
 </template>
@@ -70,6 +59,7 @@ export default {
   max-width: 24%;
 }
 .tint {
+  height: 260px;
   background: rgba(34, 34, 34, 0.4);
 }
 .row {
@@ -99,6 +89,9 @@ export default {
   }
   .col {
     min-width: 51%;
+  }
+  .p-5 {
+    padding: 1rem!important;
   }
 }
 
