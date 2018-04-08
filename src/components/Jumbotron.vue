@@ -5,7 +5,7 @@
       <p class="lead text-white">
         Apply for community development funding today
       </p>
-      <form class="input-group mt-3 email-input" action="https://formspree.io/devjbull@gmail.com"
+      <form class="input-group mt-3 email-input" action="https://formspree.io/cgranted@stanford.edu"
       method="POST">
         <input type="email" class="form-control" name="email" placeholder="Email Address">
         <div class="input-group-append">
