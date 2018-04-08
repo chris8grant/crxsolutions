@@ -5,8 +5,12 @@
       <p class="lead text-white">
         Apply for community development funding today
       </p>
-      <form action="mailto:cgranted@stanford.edu" method="GET">
-        <input type="submit" class="btn contact-btn btn-outline-light text-uppercase btn-lg" value="Contact" />
+      <form class="input-group mt-3 email-input" action="https://formspree.io/devjbull@gmail.com"
+      method="POST">
+        <input type="email" class="form-control" name="email" placeholder="Email Address">
+        <div class="input-group-append">
+          <button class="btn email-btn" type="submit" >Get Started</button>
+        </div>
       </form>
     </div>
   </div>
@@ -17,6 +21,15 @@ export default {
 };
 </script>
 <style scoped>
+.email-input {
+  width: 30%;
+}
+
+.email-btn {
+  background: #3D68A3;
+  color: white;
+}
+
 .row {
   margin-left: 0px!important;
   margin-right: 0px!important;
@@ -49,5 +62,30 @@ export default {
   font-size: 14px;
   padding: 11px 26px;
 }
+
+@media (max-width: 991.98px) {
+  .email-input {
+    width: 45%;
+  }
+}
+
+@media (max-width: 767px) {
+  .email-input {
+    width: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  .email-input {
+    width: 70%;
+  }
+}
+
+@media (max-width: 400px) {
+  .email-input {
+    width: 100%;
+  }
+}
+
 </style>
 

@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+<nav class="navbar  fixed-top navbar-expand-lg navbar-light bg-light" id="navbar">
   <a class="navbar-brand" href="#">CRX</a>
   <button
     class="navbar-toggler"
@@ -15,9 +15,6 @@
     <ul class="navbar-nav">
       <li class="nav-item active">
         <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#solution">Solutions</a>

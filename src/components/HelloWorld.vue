@@ -1,17 +1,17 @@
 <template>
   <main data-spy="scroll" data-target="#navbar" data-offset="0">
     <div class="container p-5" id="about">
-      <h2>About</h2>
+      <!-- <h2>About</h2> -->
       <div class="container">
         <p class="lead">
-          CRX is the leading community development marketplace dedicated to empowering businesses, non-profits, governments, and banks with data to better finance new projects.
+          CRX is designed to connect your funding needs with banks that are genuinely interested in supporting you.
         </p>
       </div>
     </div>
-    <div class="jumbotron jumbotron-fluid" id="solution">
+    <div class="jumbotron jumbotron-fluid overflow-scroll" id="solution">
       <div class="container-fluid"> 
         <h2 class="text-white">How it Works</h2>
-        <p class="text-white mb-5 lead">Our product is designed to connect your funding needs with banks that are genuinely interested in supporting you. </p>
+        <!-- <p class="text-white mb-5 lead">Our product is designed to connect your funding needs with banks that are genuinely interested in supporting you. </p> -->
         <div class="row">
           <div class="col mb-3">
             <div class="tint p-3">
@@ -39,7 +39,6 @@
         <h2 class="t">Our Story</h2>
         <p class="pt-4 lead">CRX launched in 2018 to increase access to capital and credit in low and moderate-income communities. Today, we've built world-class technology that connects banks with impactful community development projects that meet their Community Reinvestment Act compliance obligations. CRX is fundamentally transforming the way community development projects are financed and building the financial marketplace of the future. 
         </p>
-
       </div>
     </div>
   </main>
@@ -52,11 +51,15 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.overflow-scroll {
+  overflow: auto;
+}
+
 .hide-overflow {
   overflow: hidden;
 }
+
 .col-sm-4 {
   max-width: 24%;
 }
