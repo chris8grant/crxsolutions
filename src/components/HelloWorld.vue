@@ -113,6 +113,10 @@ export default {
   height: 45px;
 }
 
+.transparent:focus {
+  background: none;
+}
+
 .transparent::placeholder {
   color: white;
   font-weight: 500;
