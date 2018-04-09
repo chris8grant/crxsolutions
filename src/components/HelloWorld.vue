@@ -42,24 +42,19 @@
       </div>
     </div>
     <div class="container-fluid p-5" id="get-started">
-      <div class="container p-5">
+      <div class="p-5">
         <h2 class="t text-white">Get Started</h2>
-        <div class="container" id="get-started-form-container">
-          <form class="form-group mt-3 email-input" action="https://formspree.io/cgranted@stanford.edu"
+        <!-- <div class="container" id="get-started-form-container"> -->
+          <form class="form-group email-input row justify-content-md-center" action="https://formspree.io/cgranted@stanford.edu"
         method="POST">
-            <input type="text" class="form-control mb-3 transparent" name="name" placeholder="Name">       
-            <input type="email" class="form-control mb-3 transparent" name="email" placeholder="Email Address">
-            <input type="text" class="form-control mb-3 transparent" name="organization" placeholder="Name of Organization">
-            <input type="text" class="form-control mb-3 transparent" name="location" placeholder="City, Zip">
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <span class="input-group-text transparent">$</span>
-              </div>
-              <input type="number" class="form-control transparent" name="funding" @focus="funding = 10000" v-model="funding" placeholder="How much funding are you seeking?">
-            </div>
-            <input type="submit" class="btn btn-primary" id="get-started-btn" value="Get Started">
+            <input type="text" class="form-control mb-3 transparent col-xs-12 col-md-8" name="name" placeholder="Name">       
+            <input type="email" class="form-control mb-3 transparent col-xs-12 col-md-8 " name="email" placeholder="Email Address">
+            <input type="text" class="form-control mb-3 transparent col-xs-12 col-md-8" name="organization" placeholder="Name of Organization">
+            <input type="text" class="form-control mb-3 transparent col-xs-12 col-md-8" name="location" placeholder="City, Zip">
+            <input type="number" class="form-control transparent mb-3 col-xs-12 col-md-8" name="funding" @focus="funding = 10000" v-model="funding" placeholder="Funding Amount">
+            <input type="submit" class="btn btn-primary col-xs-12 col-md-5" id="get-started-btn" value="Get Started">
           </form>
-        </div>
+        <!-- </div> -->
       </div>
     </div>
     <div class="container-fluid p-5" id="team">
@@ -122,12 +117,11 @@ export default {
   font-weight: 500;
 }
 
-#get-started-form-container {
+/* #get-started-form-container {
   width: 75%;
-}
+} */
 
 #get-started-btn {
-  width: 30%;
   height: 45px;
   background: #3D68A3;
   border: 1px solid #3D68A3;
@@ -205,12 +199,9 @@ export default {
   .p-5 {
     padding: 1rem!important;
   }
-  #get-started-form-container {
+  /* #get-started-form-container {
     width: 100%;
-  }
-  #get-started-btn {
-    width: 50%;
-  }
+  } */
 }
 
 </style>
