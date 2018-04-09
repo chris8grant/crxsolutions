@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="jumbotron jumbotron-fluid overflow-scroll" id="solution">
-      <div class="container-fluid p-5"> 
+      <div class="container-fluid"> 
         <h2 class="text-white pb-3">How it Works</h2>
         <!-- <p class="text-white mb-5 lead">Our product is designed to connect your funding needs with banks that are genuinely interested in supporting you. </p> -->
         <div class="row">
@@ -35,15 +35,15 @@
       </div>
     </div>
     <div class="container-fluid p-5" id="story">
-      <div class="container p-5">
-        <h2 class="t">Our Story</h2>
+      <div class="container">
+        <h2 class="t pt-3">Our Story</h2>
         <p class="pt-4 lead">CRX launched in 2018 to increase access to capital and credit in low and moderate-income communities. Today, we are building world-class technology that connects banks with businesses and non-profit organizations like you! CRX is fundamentally transforming the way impactful businesses and non-profits are financed and building the financial marketplace of the future.
         </p>
       </div>
     </div>
     <div class="container-fluid p-5" id="get-started">
-      <div class="p-5">
-        <h2 class="t text-white">Get Started</h2>
+      <div>
+        <h2 class="t text-white pt-3">Get Started</h2>
         <!-- <div class="container" id="get-started-form-container"> -->
           <form class="form-group email-input row justify-content-md-center" action="https://formspree.io/cgranted@stanford.edu"
         method="POST">
@@ -58,8 +58,8 @@
       </div>
     </div>
     <div class="container-fluid p-5" id="team">
-      <div class="container p-5">
-        <h2 class="t pb-3">Our Team</h2>
+      <div class="container">
+        <h2 class="t pt-3 pb-3">Our Team</h2>
         
         <div class="row team-row">
           <div class="col-xs-3">
@@ -161,7 +161,7 @@ export default {
   flex-direction: column;
   /* justify-content: center; */
   /* align-content: center; */
-  height: 86vh;
+  height: 93vh;
   background-image:
     linear-gradient(rgba(0, 0, 0, .3),rgba(0, 0, 0,.75)),
     url(../assets/summer.jpg);
@@ -177,7 +177,7 @@ export default {
   flex-direction: column;
   /* justify-content: center; */
   /* align-content: center; */
-  height: 86vh;
+  height: 93vh;
   background-image:
     linear-gradient(rgba(0, 0, 0, .7),rgba(0, 0, 0,.7)),
     url(../assets/get-started.jpg);
