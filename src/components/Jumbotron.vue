@@ -3,7 +3,7 @@
     <div class="container">
       <h1 class="display-4 text-white">CRX. Accelerating your impact. </h1>
       <p class="lead text-white">
-        Apply for community development funding today
+        Apply for funding today
       </p>
       <form class="input-group mt-3 email-input" action="https://formspree.io/cgranted@stanford.edu"
       method="POST">
@@ -40,7 +40,7 @@ export default {
   align-content: center;
   height: 80vh;
   background-image:
-    linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0,.55)),
+    linear-gradient(rgba(0, 0, 0, .4),rgba(0, 0, 0,.55)),
     url(../assets/adventure.jpg);
   background-position: center;
   background-repeat: no-repeat;
