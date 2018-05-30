@@ -25,11 +25,6 @@
       <li class="nav-item">
         <a class="nav-link" href="#get-started">Get Started</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link" href="#team">
-          Team
-        </a>
-      </li>
     </ul>
   </div>
 </nav>

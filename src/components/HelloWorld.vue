@@ -57,34 +57,6 @@
         <!-- </div> -->
       </div>
     </div>
-    <div class="container-fluid p-5" id="team">
-      <div class="container">
-        <h2 class="t pt-3 pb-3">Our Team</h2>
-        
-        <div class="row team-row">
-          <div class="col-xs-3">
-            <img src="../assets/chris-profile.jpeg" width="200" height="200" class="profile"/>
-            <h5 class="pt-3">Chris</h5>
-            <p>CEO</p>
-          </div>
-          <div class="col-xs-3">
-            <img src="../assets/devon-profile.jpeg" width="200" height="200" class="profile"/>
-            <h5 class="pt-3">Devon</h5>
-            <p>Engineering</p>
-          </div>
-          <div class="col-xs-3">
-            <img src="../assets/sara-profile.jpeg" width="200" height="200" class="profile"/>
-            <h5 class="pt-3">Sara</h5>
-            <p>Business Development</p>
-          </div>
-          <div class="col-xs-3">
-            <img src="../assets/kate-profile.png" width="200" height="200" class="profile"/>
-            <h5 class="pt-3">Kate</h5>
-            <p>Operations</p>
-          </div>
-        </div>
-      </div>
-    </div>
   </main>
 </template>
 
